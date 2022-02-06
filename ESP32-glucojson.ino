@@ -1,5 +1,5 @@
-#include <WiFi.h>
-#include <WebServer.h>
+#include <ESP8266WiFi.h>
+#include <ESP8266WebServer.h>
 #include <ArduinoJson.h>
 #include <AS726X.h>
 
@@ -20,7 +20,7 @@ char buffer[850];
 const char *ssid = "FliaMendoza";
 const char *password = "bernarda2020";
 
-WebServer server(80);
+ESP8266WebServer  server(80);
 
 
 //Funcion para conectarse a wifi
