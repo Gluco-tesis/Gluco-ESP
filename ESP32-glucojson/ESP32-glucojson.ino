@@ -14,13 +14,17 @@ int CANT = 7;
 StaticJsonDocument<850> jsonDocument;
 char buffer[850];
 
+
+const char *ssid = "dlinkRalf";
+const char *password = "12345678";
+
 //const char *ssid = "Fibertel WiFi960 2.4GHz";
 //const char *password = "00439895925";
 
-const char *ssid = "FliaMendoza";
-const char *password = "bernarda2020";
+//const char *ssid = "FliaMendoza";
+//const char *password = "bernarda2020";
 
-ESP8266WebServer  server(80);
+ESP8266WebServer server(80);
 
 
 //Funcion para conectarse a wifi
