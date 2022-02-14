@@ -14,11 +14,11 @@ int CANT = 7;
 StaticJsonDocument<850> jsonDocument;
 char buffer[850];
 
-//const char *ssid = "Fibertel WiFi960 2.4GHz";
-//const char *password = "00439895925";
+const char *ssid = "Fibertel WiFi960 2.4GHz";
+const char *password = "00439895925";
 
-const char *ssid = "FliaMendoza";
-const char *password = "bernarda2020";
+//const char *ssid = "FliaMendoza";
+//const char *password = "bernarda2020";
 
 WebServer server(80);
 
